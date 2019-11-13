@@ -24,7 +24,7 @@
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
                 ?>
-                <p><a href="cybergrx-website/README.md">README</a></p>
+                <p><a href="cybergrx-website/README.md">Test Elasticache VPC Dependency</a></p>
             </div>
         </div>
 
