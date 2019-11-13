@@ -1,0 +1,5 @@
+<ul class="share-buttons">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode(get_permalink()); ?>" target="_blank" title="Share on Facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=<?php echo urlencode(wp_get_shortlink()); ?>&via=cybergrx" target="_blank" title="Tweet"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i><span class="sr-only">Tweet</span></a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php the_title(); ?>&source=<?php echo urlencode(get_permalink()); ?>" target="_blank" title="Share on LinkedIn"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i><span class="sr-only">Share on LinkedIn</span></a></li>
+</ul>

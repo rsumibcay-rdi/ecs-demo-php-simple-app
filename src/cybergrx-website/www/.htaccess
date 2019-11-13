@@ -1,0 +1,53 @@
+# 301s
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^our-platform/for-([a-z\-]*)/? /our-solution/$1/ [R=301,L]
+RewriteRule ^our-platform/? /our-solution/ [R=301,L]
+RewriteRule ^solutions/? /our-solution/ [R=301,L]
+RewriteRule ^company/[a-z] /company/ [R=301,L]
+
+RewriteRule ^financial-services/? /our-solution/ [R=301,L]
+RewriteRule ^information-technology/? /our-solution/ [R=301,L]
+RewriteRule ^being-assessed/? /our-solution/ [R=301,L]
+RewriteRule ^healthcare/? /our-solution/ [R=301,L]
+RewriteRule ^consumer-and-retail/? /our-solution/ [R=301,L]
+RewriteRule ^energy/? /our-solution/ [R=301,L]
+RewriteRule ^industrials/? /our-solution/ [R=301,L]
+
+RewriteRule ^free-?trial https://info.cybergrx.com/freetrial [R=301,L]
+</IfModule>
+
+# robots.txt disallow all in lower environments
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} local [NC,OR]
+RewriteCond %{HTTP_HOST} staging [NC]
+RewriteRule robots\.txt - [E=ROBOTS_DISALLOW:yes]
+
+RewriteCond %{ENV:ROBOTS_DISALLOW} yes [NC]
+RewriteRule robots\.txt /robots.disallow.txt [L]
+</IfModule>
+
+# Prevent author username disclosure by enumerating IDs
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_URI}  ^/$
+RewriteCond %{QUERY_STRING} ^/?author=([0-9]*)
+RewriteRule ^(.*)$ /resources/ [L,R=301]
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+php_value upload_max_filesize 10M
+php_value post_max_size 11M

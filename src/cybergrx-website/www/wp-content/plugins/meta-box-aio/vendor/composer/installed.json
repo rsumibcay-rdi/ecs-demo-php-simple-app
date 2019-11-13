@@ -1,0 +1,635 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.6.0",
+        "version_normalized": "1.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+            "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "^4.8.36"
+        },
+        "time": "2018-08-27T06:10:37+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Composer\\Installers\\Plugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Composer\\Installers\\": "src/Composer/Installers"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "https://composer.github.io/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Eliasis",
+            "Hurad",
+            "ImageCMS",
+            "Kanboard",
+            "Lan Management System",
+            "MODX Evo",
+            "Mautic",
+            "Maya",
+            "OXID",
+            "Plentymarkets",
+            "Porto",
+            "RadPHP",
+            "SMF",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "aimeos",
+            "annotatecms",
+            "attogram",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "cockpit",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "eZ Platform",
+            "elgg",
+            "expressionengine",
+            "fuelphp",
+            "grav",
+            "installer",
+            "itop",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lavalite",
+            "lithium",
+            "magento",
+            "majima",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "modx",
+            "moodle",
+            "osclass",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "pxcms",
+            "reindex",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "sydes",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "yawik",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "meta-box/mb-admin-columns",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=mb-admin-columns&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/mb-custom-table",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=mb-custom-table&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/mb-frontend-submission",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=mb-frontend-submission&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/mb-revision",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=mb-revision&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/mb-settings-page",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=mb-settings-page&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/mb-term-meta",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=mb-term-meta&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/mb-user-meta",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=mb-user-meta&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/mb-user-profile",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=mb-user-profile&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/meta-box-builder",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=meta-box-builder&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/meta-box-columns",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=meta-box-columns&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/meta-box-conditional-logic",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=meta-box-conditional-logic&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/meta-box-geolocation",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=meta-box-geolocation&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/meta-box-group",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=meta-box-group&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/meta-box-include-exclude",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=meta-box-include-exclude&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/meta-box-show-hide",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=meta-box-show-hide&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/meta-box-tabs",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=meta-box-tabs&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/meta-box-template",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=meta-box-template&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/meta-box-tooltip",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/?action=download&product=meta-box-tooltip&api_key=d3868083e53c57b032d27c257404e200",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "meta-box/meta-box-updater",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "https://metabox.io/free/meta-box-updater.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "wpackagist-plugin/mb-comment-meta",
+        "version": "dev-trunk",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/mb-comment-meta/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/mb-comment-meta.zip?timestamp=1500349778",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2017-07-18T03:49:38+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "source",
+        "homepage": "https://wordpress.org/plugins/mb-comment-meta/"
+    },
+    {
+        "name": "wpackagist-plugin/mb-custom-post-type",
+        "version": "dev-trunk",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/mb-custom-post-type/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/mb-custom-post-type.zip?timestamp=1561624584",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2019-06-27T08:36:24+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "source",
+        "homepage": "https://wordpress.org/plugins/mb-custom-post-type/"
+    },
+    {
+        "name": "wpackagist-plugin/mb-elementor-integrator",
+        "version": "dev-trunk",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/mb-elementor-integrator/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/mb-elementor-integrator.zip?timestamp=1553241756",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2019-03-22T08:02:36+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "source",
+        "homepage": "https://wordpress.org/plugins/mb-elementor-integrator/"
+    },
+    {
+        "name": "wpackagist-plugin/mb-relationships",
+        "version": "dev-trunk",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/mb-relationships/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/mb-relationships.zip?timestamp=1551082745",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2019-02-25T08:19:05+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "source",
+        "homepage": "https://wordpress.org/plugins/mb-relationships/"
+    },
+    {
+        "name": "wpackagist-plugin/mb-rest-api",
+        "version": "dev-trunk",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/mb-rest-api/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/mb-rest-api.zip?timestamp=1556787571",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2019-05-02T08:59:31+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "source",
+        "homepage": "https://wordpress.org/plugins/mb-rest-api/"
+    },
+    {
+        "name": "wpackagist-plugin/meta-box-beaver-themer-integrator",
+        "version": "dev-trunk",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/meta-box-beaver-themer-integrator/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/meta-box-beaver-themer-integrator.zip?timestamp=1552359809",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2019-03-12T03:03:29+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "source",
+        "homepage": "https://wordpress.org/plugins/meta-box-beaver-themer-integrator/"
+    },
+    {
+        "name": "wpackagist-plugin/meta-box-facetwp-integrator",
+        "version": "dev-trunk",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/meta-box-facetwp-integrator/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/meta-box-facetwp-integrator.zip?timestamp=1517461030",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2018-02-01T04:57:10+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "source",
+        "homepage": "https://wordpress.org/plugins/meta-box-facetwp-integrator/"
+    },
+    {
+        "name": "wpackagist-plugin/meta-box-text-limiter",
+        "version": "dev-trunk",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/meta-box-text-limiter/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/meta-box-text-limiter.zip?timestamp=1534408392",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2018-08-16T08:33:12+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "source",
+        "homepage": "https://wordpress.org/plugins/meta-box-text-limiter/"
+    },
+    {
+        "name": "wpackagist-plugin/meta-box-yoast-seo",
+        "version": "dev-trunk",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/meta-box-yoast-seo/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/meta-box-yoast-seo.zip?timestamp=1531107144",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2018-07-09T03:32:24+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "source",
+        "homepage": "https://wordpress.org/plugins/meta-box-yoast-seo/"
+    }
+]

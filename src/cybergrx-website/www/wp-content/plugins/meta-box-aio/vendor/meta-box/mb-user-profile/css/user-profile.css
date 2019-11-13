@@ -1,0 +1,94 @@
+.rwmb-confirmation {
+	padding: .75em 1.25em;
+	margin: 1em 0;
+	border: 1px solid #d0e9c6;
+	border-radius: .25em;
+	background: #dff0d8;
+	color: #3c763d;
+}
+
+.rwmb-button.remove-clone {
+	width: 20px;
+	height: 20px;
+}
+
+.rwmb-button.remove-clone i,
+.rwmb-button.remove-clone i:before {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.rwmb-button.remove-clone i:before {
+	content: "\2013";
+	top: -2px;
+}
+
+.rwmb-profile-error {
+	color: #721c24;
+	background: #f8d7da;
+	padding: .75em 1.25em;
+	margin-bottom: 1em;
+	border: 1px solid #f5c6cb;
+	border-radius: .25em;
+}
+
+.rwmb-disable {
+	visibility: hidden;
+	position: absolute;
+	opacity: 0;
+}
+
+.rwmb-form-submit {
+	padding-top: 10px;
+}
+
+.rwmb-form-submit-login {
+	display: flex;
+	align-items: center;
+}
+
+.rwmb-form-submit-button {
+	margin-right: 10px;
+}
+
+.rwmb-password-strength {
+	display: block;
+	text-align: center;
+	padding: 6px;
+	margin-top: 10px;
+	max-width: 99%;
+}
+
+.rwmb-password-strength:empty {
+	height: 0;
+	margin-top: -10px;
+	padding: 0;
+}
+
+.rwmb-password-strength.very-weak {
+	background-color: #f1adad;
+	border-color: #e35b5b;
+}
+
+.rwmb-password-strength.weak {
+	background-color: #fbc5a9;
+	border-color: #f78b53;
+}
+
+.rwmb-password-strength.medium {
+	background-color: #ffe399;
+	border-color: #ffc733;
+}
+
+.rwmb-password-strength.strong {
+	background-color: #c1e1b9;
+	border-color: #83c373;
+}

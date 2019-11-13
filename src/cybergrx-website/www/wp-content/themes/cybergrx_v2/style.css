@@ -1,0 +1,54 @@
+/* ==========================================================================================
+
+   ,ad8888ba,    ,ad8888ba,    88        88  888b      88
+  d8"'    `"8b  d8"'    `"8b   88        88  8888b     88
+ d8'           d8'        `8b  88        88  88 `8b    88
+ 88            88          88  88aaaaaaaa88  88  `8b   88
+ 88            88          88  88""""""""88  88   `8b  88
+ Y8,           Y8,        ,8P  88        88  88    `8b 88
+  Y8a.    .a8P  Y8a.    .a8P   88        88  88     `8888
+   `"Y8888Y"'    `"Y8888Y"'    88        88  88      `888
+
+ ===========================================================================================
+ ===========================================================================================
+ =============== BRAND / MARKETING / DIGITAL / PR      =====================================
+ ===========================================================================================
+ =============== D E N V E R   C O L O R A D O   U S A =====================================
+ ===========================================================================================*/
+/*  Theme Name: CyberGRX V2
+/*  Version: 1.0.0
+/*  Author: Paul Wood | COHN
+/*  Author URI: http://cohnmarketing.com
+/*  Description: A WordPress theme update created by COHN.
+/*  Text Domain: cybergrx_v2
+/* ========================================================================================== */
+/*  Copyright © 2019. COHN All rights reserved.
+/* ========================================================================================== */
+
+.sticky {}          /* DO NOT EDIT THESE SELECTORS! */
+.gallery-caption {} /* THEY ARE COMPLETELY USELESS */
+.bypostauthor {}    /* AND ONLY KEEP THE THEME CHECK HAPPY */
+
+
+#pjax__container.cybergrx .section__cybergrx__content h1::after,
+#pjax__container.cybergrx .section__cybergrx__content h2::after,
+#pjax__container.cybergrx .section__cybergrx__content h3::after,
+#pjax__container.cybergrx .section__cybergrx__content h4::after,
+#pjax__container.cybergrx .section__cybergrx__content h5::after,
+#pjax__container.cybergrx .section__cybergrx__content h6::after
+{
+ content: "";
+  clear: both;
+  display: table;
+}
+
+#pjax__container.cybergrx .section__cybergrx__content h1,
+#pjax__container.cybergrx .section__cybergrx__content h2,
+#pjax__container.cybergrx .section__cybergrx__content h3,
+#pjax__container.cybergrx .section__cybergrx__content h4,
+#pjax__container.cybergrx .section__cybergrx__content h5,
+#pjax__container.cybergrx .section__cybergrx__content h6
+{
+width:100%;
+float:left;
+}
